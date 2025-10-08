@@ -28,6 +28,8 @@ public class UserController {
     public ResponseEntity<String> createUser(@RequestBody User user){
         userService.createUser(user);
         return new ResponseEntity<>("User added", HttpStatus.CREATED);
+
+        //added
     }
 
     @GetMapping("api/users/{id}")
