@@ -14,6 +14,8 @@ import java.util.List;
 @RestController
 public class UserController {
 
+    // New features and APIs are added in this account.
+    // Updated all the features
     @Autowired
     private UserService userService;
 
