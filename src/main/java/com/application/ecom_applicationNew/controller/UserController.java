@@ -12,6 +12,7 @@ import java.util.List;
 
 
 @RestController
+//Add new API's to this controller
 public class UserController {
 
     @Autowired
